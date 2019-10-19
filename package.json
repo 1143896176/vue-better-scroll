@@ -1,13 +1,28 @@
 {
-  "name": "vue-scroll",
+  "name": "vue-better-scroll",
   "version": "0.1.0",
   "private": true,
+  "main": "index.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": ["scroll","vue scroll","vue better-scroll"],
+  "author": "wangya",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
   "dependencies": {
+    "@better-scroll/core": "^2.0.0-beta.2",
+    "@better-scroll/pull-down": "^2.0.0-beta.2",
+    "@better-scroll/pull-up": "^2.0.0-beta.2",
     "core-js": "^2.6.5",
     "vue": "^2.6.10"
   },
@@ -15,6 +30,7 @@
     "@vue/cli-plugin-babel": "^3.11.0",
     "@vue/cli-plugin-eslint": "^3.11.0",
     "@vue/cli-service": "^3.11.0",
+    "axios": "^0.19.0",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
