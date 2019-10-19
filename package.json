@@ -2,7 +2,7 @@
   "name": "vue-better-scroll",
   "version": "0.1.0",
   "private": true,
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -10,13 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/1143896176/vue-better-scroll.git"
   },
   "keywords": ["scroll","vue scroll","vue better-scroll"],
   "author": "wangya",
   "license": "ISC",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/1143896176/vue-better-scroll.git"
   },
   "homepage": "",
   "dependencies": {
